@@ -1,6 +1,6 @@
 import parseInput from 'lib/parseInput'
 
-const input = (await parseInput()).split('\n')
+const input = await parseInput()
 
 const total = input.reduce((total, line) => {
 	const numbers = line

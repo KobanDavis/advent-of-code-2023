@@ -1,6 +1,6 @@
 import parseInput from 'lib/parseInput'
 
-const input = (await parseInput()).split('\n')
+const input = await parseInput()
 
 const digits: Record<string, number> = {
 	1: 1,
