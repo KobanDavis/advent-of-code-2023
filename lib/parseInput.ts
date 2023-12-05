@@ -4,7 +4,7 @@ const parseInput = async (): Promise<string[]> => {
 	const day = path.pop()
 
 	console.log(`Day ${day}, part ${part}`)
-	const input = await Bun.file(`./src/input/${day}.txt`).text()
+	const input = await Bun.file(`./src/${day}/input.txt`).text()
 	return input.split('\n')
 }
 
