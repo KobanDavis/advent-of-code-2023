@@ -16,5 +16,5 @@ fs.writeFile(dayPath + '/2.ts', '')
 fs.writeFile(dayPath + '/input.txt', '')
 
 execSync(`code ${dayPath}/1.ts`)
-
 console.log(`Time to fail day ${nextDay}`)
+console.log(`https://adventofcode.com/2023/day/${nextDay}`)
